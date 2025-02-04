@@ -1,0 +1,14 @@
+# este programa tiene como fin identificar los tipos de datos, procesos y resultados en un algoritmo
+
+# funcion para calcular el perimetro de un triangulo
+def perimetrot(a, b, c):
+ return a + b  +c
+# Entrada de los lados del triangulo
+lado1 = float(input("ingrese la longitud del lado 1:"))
+lado2 = float(input("ingrese la longitud del lado 2:"))
+lado3 = float(input("ingrese la longitud del lado 3:"))
+ # calcular el perimetro 
+perimetro = perimetrot(lado1, lado2, lado3)
+# mostrar el resultado
+print(f"el resultado es: {perimetro}")
+

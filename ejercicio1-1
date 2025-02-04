@@ -1,0 +1,14 @@
+#elabore un programa que reciba dos numeros distintos e indique cual es el mayor
+#condicional para verificar
+
+def mayor(a,b):
+    if a>b: return print("el numero 1 es mayor al numero 2")
+    else: return print("el numero 2 es mayor que el numero 1")
+  # Entrada de los datos
+num1 = float(input("Ingrese el numero 1: "))
+num2 = float(input("Ingrese el numero 2: "))
+# mostrar el resultado
+res = mayor(num1,num2)
+print(f"{res}")
+   
+    
